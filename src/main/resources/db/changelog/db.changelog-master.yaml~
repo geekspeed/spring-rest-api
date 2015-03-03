@@ -1,0 +1,14 @@
+mongoChangeLog:
+  - changeSet:
+      id: 1
+      author: pbonansea
+      changes:
+        db
+          sitebuilder
+              - insert
+                  "id":1
+                  "name":"user 1"
+                  "lastName":"user 1"
+                  "userName":"user1"
+                  "userPwd":"user1"
+
